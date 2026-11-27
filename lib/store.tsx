@@ -23,8 +23,8 @@ const initial: State = {
   role: 'athlete',
   progress: { 1: 100, 2: 100, 3: 60 },
   workouts: [
-    { date: 'Nov 25', type: 'Strength', detail: 'Squat 5x5, bench 4x8', minutes: 60 },
-    { date: 'Nov 24', type: 'Conditioning', detail: 'Intervals 10x200m', minutes: 40 },
+    { date: 'Nov 25', type: 'RSF 10-Minute', detail: 'Bodyweight workout', minutes: 10 },
+    { date: 'Nov 24', type: 'RSF 10-Minute', detail: 'Bodyweight workout', minutes: 10 },
   ],
   teamChat: [
     { from: 'Coach Davis', text: 'Great work today. Film review at 3 before practice tomorrow.' },
@@ -38,7 +38,7 @@ const initial: State = {
   bot: { athlete: [], coach: [] },
 };
 
-const KEY = 'rsf-state-v1';
+const KEY = 'rsf-state-v2';
 
 type Ctx = State & {
   setRole: (r: Role) => void;

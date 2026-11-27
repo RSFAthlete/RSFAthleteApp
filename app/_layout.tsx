@@ -62,6 +62,7 @@ function RootNav() {
         <Stack.Screen name="module/[id]" options={{ title: 'Module' }} />
         <Stack.Screen name="profile" options={{ title: 'Profile' }} />
         <Stack.Screen name="toolkit" options={{ title: 'Coaches toolkit' }} />
+        <Stack.Screen name="workout" options={{ title: '10-minute workout' }} />
       </Stack>
     </ThemeProvider>
   );
